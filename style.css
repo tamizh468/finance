@@ -1,0 +1,41 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#input-form label {
+    font-weight: bold;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+.debt-list {
+    list-style: none;
+    padding: 0;
+}
+
+.debt-list li {
+    margin-bottom: 5px;
+}
